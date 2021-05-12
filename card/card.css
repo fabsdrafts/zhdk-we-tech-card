@@ -1,0 +1,15 @@
+/* .card {
+  width: 430px;
+  height: 665px;
+  margin: 10px auto;
+  background-color: #714730;
+  border-radius: 10px;
+} */
+
+div {
+  width: 430px;
+  height: 665px;
+  margin: 10px auto;
+  background-color: #714730;
+  border-radius: 10px;
+}
