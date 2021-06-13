@@ -17,8 +17,13 @@
 }
 
 html {
+  background-color: rgb(255, 255, 255);
   font-size: 72%;
   color: rgb(255, 255, 255);
+}
+
+.card {
+  border-radius: 10px;
 }
 
 div {
@@ -26,26 +31,35 @@ div {
   height: 665px;
   margin: 10px auto;
   background-color: #714730;
-  border-radius: 10px;
 
   margin: 1rem auto;
-  border-radius: 15px;
-  padding: 15px;
 
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
+.card-title-wrapper {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-color: #ffffff3d;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
 .card-title {
+  text-align: center;
   font-size: 30px;
   line-height: 1.2;
-  margin-bottom: var(--spacer-default);
+  justify-self: center;
 }
 
 .image-wrapper {
   width: 300px;
-  margin-bottom: calc(var(--spacer-default) * 2);
+  margin: 0 auto;
+  /*margin-bottom: calc(var(--spacer-default) * 2);*/
 
   position: relative;
 }
@@ -66,7 +80,7 @@ div {
 }
 .image-label2 {
   font-size: 15px;
-  color: chartreuse;
+  color: #3cbe1b;
 
   position: absolute;
   left: 0;
@@ -75,4 +89,20 @@ div {
   transform-origin: 50% 50%;
 
   transform: translate(calc(-100%), -50%) rotate(270deg);
+}
+.card-text {
+  text-align: center;
+  background-color: #ffffff3d;
+  padding: 15px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+progress {
+  width: 300px;
+  background: rgb(173, 32, 32);
+}
+
+progress::-moz-progress-bar {
+  background: #3cbe1b;
 }

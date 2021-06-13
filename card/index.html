@@ -6,15 +6,19 @@
         <meta name="description" content>
         <title>GRUMPY SHARK HAT CAT</title>
         <link rel="stylesheet"  href="./card.css">
+        <script src="./script.js" defer></script>
     </head>
     <body>
         <div class="card">
-            <h1 class="card-title">GRUMPY SHARK HAT CAT</h1>
+            <div class="card-title-wrapper">
+                <h1 class="card-title">GRUMPY SHARK HAT CAT</h1>
+            </div>
 
             <div class="image-wrapper">
                 <img class="card-image" src="./catsharkhat.jpg" alt="GRUMPY SHARK HAT CAT">
                 <span class="image-label">MAX DMG 70</span>
                 <span class="image-label2">HP 1200</span>
+                <progress id="health" value="1200" max="1200"></progress>
             </div>
             <p class="card-text">
                 The GRUMPY SHARK HAT CAT’s basic attack “paw slap”
@@ -27,7 +31,6 @@
                 seconds if the ultimate attack is performed
                 on a dog-type enemy.
               </p>
-        
         </div>
     </body>
 </html>
